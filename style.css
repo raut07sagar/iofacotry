@@ -1,0 +1,491 @@
+
+
+/* **********section 1******* */
+
+.section1_container{
+   
+  margin: 1rem;
+  width: 100%;
+}
+
+.section1_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgdiv{
+    
+    width: 30rem;
+    height: 20rem;
+    margin-bottom: 0;
+}
+.firstImg{
+    width: 34rem;
+    height: 20rem;
+}
+.textdiv{
+    background-color: #472876;
+    width: 30rem;
+    height: 20rem;
+    margin-top: 0;
+    color: white;
+    text-align: left;
+    padding: 2rem 2rem 0rem 2rem;
+}
+.textdiv button{
+  margin-top: 1rem;
+  width: 7rem;
+  height: 2.2rem;;
+  background-color: transparent;
+  border-color: white;
+  border-radius: 30px;
+  color: white;
+  
+}
+
+.textdiv p,h2{
+    font-weight: lighter;
+}
+
+.second_Div{
+    width: 40rem;
+    display: flex;
+    flex-direction: row;
+   
+}
+.second_Div img{
+   width: 20rem;
+   height: 10rem;
+   object-fit:fill;
+}
+
+.cont{
+    background-color: rgb(255, 255, 255);
+    width: 20rem;
+    height: 20.6rem;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    box-shadow: 1px 2px 5px grey ;
+    border: none;
+    padding-left: 0.5rem;
+}
+.cont:hover{
+    background-color: rgb(206, 199, 199);
+    box-shadow: 1px 2px 10px grey ;
+}
+
+
+
+/* ********** section 2 ********** */
+
+.section2_div{
+    background-color: black;
+    width: 97%;
+   padding-top: 2rem;
+   margin-top: 1rem;
+  
+}
+.section2_div img{
+   margin-left: 22%;
+   width: 50%;
+   height: 20rem;
+}
+.secLower_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.blackdiv{
+    background-color: rgb(10, 10, 10);
+    width: 20rem;
+    height: 20rem;
+    margin: 0.8rem;
+    padding: 0.7rem;
+    color: rgb(207, 206, 203);
+    font-weight: lighter;
+}
+.blackdiv:hover{
+    background-color: rgb(73, 72, 72);
+}
+
+.blackdiv b{
+color: rgb(230, 218, 218);
+}
+
+
+/* ********** section 3 ********** */
+#section3_Div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align: center;
+  
+}
+
+
+
+
+.secThird_img1{
+    width: 17rem;
+    height: 20rem;
+  
+}
+
+
+.secThird_img2{
+    width: 17rem;
+    height: 20rem;
+  
+}
+.secThird_img3{
+    width: 17rem;
+    height: 20rem;
+  
+}
+.ds1{
+    position: relative;
+}
+.ps1{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    color: rgb(235, 223, 223);
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.ds2{
+    position: relative;
+}
+.ps2{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    color: rgb(235, 223, 223);
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.ds3{
+    position: relative;
+}
+.ps3{
+    position: absolute;
+    left: 50%;
+    top: 60%;
+   
+    color: rgb(235, 223, 223);
+    transform: translate(-50%,-50%);
+    
+    opacity: 0;
+}
+.ds3:hover .ps3{
+opacity: 1;
+}
+.ds2:hover .ps2{
+    opacity: 1;
+ }
+.ds1:hover .ps1{
+        opacity: 1;
+        }
+
+
+
+
+
+/* ********** section 3 ********** */
+
+.section4_Div{
+    position: relative;
+}
+
+.musicimg{
+width: 20rem;
+height: 20rem;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+
+}
+
+#upperlastDiv{
+    width: 78rem;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.firstDiv{
+    width: 20rem;
+    height: 15rem;
+
+    margin: 1rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.secondDiv{
+    width: 20rem;
+    height: 15rem;
+    
+    margin: 1rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cupimg{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+/* media query */
+
+@media (max-width : 1068px){
+ 
+
+    .firstImg{
+        width: 40.5rem;
+        height: 20rem;
+    }
+    .textdiv{
+        background-color: #472876;
+        width: 36.5rem;
+        height: 20rem;
+        margin-top: 0;
+        color: white;
+        text-align: left;
+        padding: 2rem 2rem 0rem 2rem;
+    }
+    .second_Div{
+        width: 40rem;
+        display: flex;
+       
+
+       
+    }
+    .second_Div b{
+        display: block;
+    }
+    .cont{
+        width: 18rem;
+        height: 20.6rem;
+        margin: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0.7rem 0.7rem 0 0;
+    }
+    .cont img{
+        width: 18rem;
+    }
+    .section2_div{
+        width:41rem ;
+    }
+}
+
+
+@media (max-width : 920px){
+  
+    /* .imgdiv{
+    
+        width: 15rem;
+        height: 20rem;
+        margin-bottom: 0;
+    } */
+    .firstImg{
+        width: 40.5rem;
+        height: 20rem;
+    }
+    .textdiv{
+        background-color: #472876;
+        width: 36.5rem;
+        height: 20rem;
+        margin-top: 0;
+        color: white;
+        text-align: left;
+        padding: 2rem 2rem 0rem 2rem;
+    }
+    .second_Div{
+        width: 40rem;
+        display: flex;
+       
+
+       
+    }
+    .second_Div b{
+        display: block;
+    }
+    .cont{
+        width: 18rem;
+        height: 20.6rem;
+        margin: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin: 0.7rem 0.7rem 0 0;
+    }
+    .cont img{
+        width: 18rem;
+    }
+    #section3_Div{
+        
+        margin-left: 7%;
+ 
+      
+    }
+    .musicimg{
+        display: none;
+    }
+    #upperlastDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        
+    }
+}
+
+
+
+@media (max-width : 768px){
+  
+    .section1_container{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    .imgdiv{
+    
+        width: 15rem;
+        height: 20rem;
+        margin-bottom: 0;
+    }
+    .firstImg{
+        width: 34.5rem;
+        height: 20rem;
+    }
+    .textdiv{
+        background-color: #472876;
+        width: 30.5rem;
+        height: 20rem;
+        margin: 0;
+        color: white;
+        text-align: left;
+        padding: 2rem 2rem 0rem 2rem;
+    }
+    .second_Div{
+        width: 40rem;
+        
+     display: flex;
+       
+    }
+
+    .cont{
+        width: 15rem;
+        height: 20.6rem;
+        margin: 0;
+        padding-left: 1rem;
+        margin: 0.7rem 0.7rem 0 0 ;
+    }
+    .cont img{
+        width: 15rem;
+    }
+    .section2_div{
+        width:35rem ;
+    }
+    #section3_Div{
+        
+      
+        display: flex;
+        flex-direction: column;
+        margin-left: -55rem;
+    
+       
+         
+       }
+    .musicimg{
+        display: none;
+    }
+    #upperlastDiv{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+
+
+
+@media (max-width : 520px){
+   
+    .imgdiv{
+    
+        width: 10rem;
+        height: 20rem;
+        margin-bottom: 0;
+    }
+    .firstImg{
+        width: 24rem;
+        height: 20rem;
+    }
+    .textdiv{
+        background-color: #472876;
+        width: 20rem;
+        height: 20rem;
+        margin-top: 0;
+        color: white;
+        text-align: left;
+        padding: 2rem 2rem 0rem 2rem;
+    }
+    .second_Div{
+    
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .cont{
+        background-color: rgb(255, 252, 253);
+        width: 22rem;
+        height: 20.6rem;
+        margin: 0;
+        padding-left: 1rem;
+        margin-top: 0.7rem ;
+        
+    }
+    .cont img{
+        width: 22rem;
+       
+    }
+    .section2_div{
+        width:24rem ;
+    }
+    .section2_div img{
+        margin-left: 22%;
+        width: 60%;
+        height: 15rem;
+     }
+     #section3_Div{
+        
+      
+     display: flex;
+     flex-direction: column;
+     margin-left: -55rem;
+    
+      
+    }
+    .musicimg{
+        display: none;
+    }
+    #upperlastDiv{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
